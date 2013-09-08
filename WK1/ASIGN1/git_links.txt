@@ -1,0 +1,10 @@
+Git Repo
+
+https://github.com/jamesdlavender/dws1/tree/gh-pages/
+
+
+GH Pages
+
+http://jamesdlavender.github.io/dws1/WK1/ASIGN1/brownie_recipe.html
+
+http://jamesdlavender.github.io/dws1/WK1/ASIGN1/element_definitions.html
