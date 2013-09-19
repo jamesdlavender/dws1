@@ -1,0 +1,128 @@
+body {
+	font-family: Arial,Verdana, sans-serif;
+	background-color: #1E1E20;
+	padding: 5px;
+}
+
+a:link {
+	color:#FF0000; 
+	text-decoration:none;
+}
+
+a:visited {
+	color:#00FF00; 
+	text-decoration:none;
+}
+
+a:hover {
+	color:#FFFFFF; 
+	text-decoration:underline;
+}
+
+a:active {
+	color:#0000FF; 
+	text-decoration:underline;
+}
+
+p.link {
+	background-color:#F3FFE2;
+}
+
+p.first {
+	text-align:center;
+	width:80%;
+	height:135px;
+	margin: 1.7em auto 1.7em auto;
+}
+
+p.list {
+	text-align:right;
+	width:700px;
+	height:20px;
+	margin: 1.7em auto 1.7em auto;
+}
+
+#wrapper {
+	background-color:#181818;
+	margin: 1.0em auto 1.5em auto;
+	width:850px;
+	height:1200px;
+	border:2px solid;
+	border-radius:25px;
+	box-shadow: 5px 5px 5px #080808;
+	display:block;
+}
+
+h1 {
+	background-color: #374140;
+	color:	hsla(6, 73%, 50%, 1);
+	border: 1px solid #FFF;
+	text-shadow: 2px 2px #000000;
+	line-height: 12px;
+	letter-spacing: 2px;
+	text-align: center;
+	font: normal small-caps bold 30pt 'Pathway Gothic One', sans-serif;
+
+}
+
+h2 {
+	background-color: rgba(0, 153, 148, 1);
+	color:	#FCFFF5;
+	font: normal small-caps normal 18pt 'Josefin Sans', sans-serif;
+	border: 1px solid #181818;
+	text-shadow: 1px 1px #000000;
+	padding: 2%;
+	margin: 1em;
+}
+
+a {
+	background-color: #2A2C2B;
+	color:	hsla(6, 73%, 50%, 1);
+	font: normal small-caps bold 18pt 'Josefin Sans', sans-serif;
+	border: 1px solid #181818;
+}
+
+i {
+	background-color: #2A2C2B;
+	color:	#FFFFFF;
+	font-family: "Arial";
+}
+
+b {
+	color:	hsla(6, 73%, 50%, 1);
+	font-family: "Arial";
+	border: 1px solid #39F;
+}
+
+p {
+	background-color: #2A2C2B;
+	color:	#D9CB9E;
+	font-family: "Arial";
+	font-size: 18px;
+	border: 1px solid #181818;
+}
+
+ul li {
+	background-color: rgba(55, 65, 64, 1);
+	color:	#FFFFFF;
+	font-family: "Arial";
+	font-size: 14px;
+	border: 1px solid #282828;
+	list-style-type: square;
+}
+
+.framework {
+	float: left;
+	width: 52%;
+	padding: .5%;
+	margin: .5%;
+}
+.wikipedia {
+	float: right;
+	width:42%;
+	padding: .5%;
+	margin: .5%;
+}
+.firstpara{
+	clear: both;
+}
