@@ -25,6 +25,24 @@ a:active {
 	text-decoration:underline;
 }
 
+p.link {
+	background-color:#F3FFE2;
+}
+
+p.first {
+	text-align:center;
+	width:80%;
+	height:135px;
+	margin: 1.7em auto 1.7em auto;
+}
+
+p.list {
+	text-align:right;
+	width:700px;
+	height:20px;
+	margin: 1.7em auto 1.7em auto;
+}
+
 #wrapper {
 	background-color:#181818;
 	margin: 1.0em auto 1.5em auto;
@@ -34,6 +52,7 @@ a:active {
 	border-radius:25px;
 	box-shadow: 5px 5px 5px #080808;
 	display:block;
+	background: linear-gradient(to bottom, #181818 0%,#101010 2%,#282828 45%,#101010 77%);
 }
 
 h1 {
@@ -44,14 +63,15 @@ h1 {
 	line-height: 12px;
 	letter-spacing: 2px;
 	text-align: center;
-	font: normal small-caps bold 36pt 'Pathway Gothic One', sans-serif;
+	font: normal small-caps bold 30pt 'Pathway Gothic One', sans-serif;
+	background: url("../images/icon.png") no-repeat scroll left;
 
 }
 
 h2 {
 	background-color: rgba(0, 153, 148, 1);
 	color:	#FCFFF5;
-	font: normal small-caps normal 20pt 'Josefin Sans', sans-serif;
+	font: normal small-caps normal 18pt 'Josefin Sans', sans-serif;
 	border: 1px solid #181818;
 	text-shadow: 1px 1px #000000;
 	padding: 2%;
@@ -85,24 +105,6 @@ p {
 	border: 1px solid #181818;
 }
 
-p.link {
-	background-color:#F3FFE2;
-}
-
-p.first {
-	text-align:center;
-	width:80%;
-	height:135px;
-	margin: 1.7em auto 1.7em auto;
-}
-
-p.list {
-	text-align:right;
-	width:700px;
-	height:20px;
-	margin: 1.7em auto 1.7em auto;
-}
-
 ul li {
 	background-color: rgba(55, 65, 64, 1);
 	color:	#FFFFFF;
@@ -110,9 +112,10 @@ ul li {
 	font-size: 14px;
 	border: 1px solid #282828;
 	list-style-type: square;
+	background: url("../images/icon.png") no-repeat scroll right;
 }
 
-.wessex {
+.framework {
 	float: left;
 	width: 52%;
 	padding: .5%;
